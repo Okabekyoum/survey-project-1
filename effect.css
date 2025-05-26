@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+
+@keyframes colorChange {
+    0% {color: black;}
+    15% {color: navy;}
+    25% {color: blue;}
+    40% {color: cornflowerblue;}
+    50% {color: #FF4040;}
+    75% {color: Red;}
+    85% {color: maroon;}
+    100% {color: black;}
+}
+
+
+
+h1, a {
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+    font-size: 55px;
+    animation: colorChange 15s infinite;
+}
+
+p {font-family: sans-serif; 
+    color: purple;
+    font-size: 19px;
+
+}
+
+input[type="button"] {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 30px;
+    color: maroon;
+    font-size: 18px;
+
+}
