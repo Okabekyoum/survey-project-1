@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(69, 206, 241);
 }
 
 
@@ -37,5 +37,5 @@ input[type="button"] {
     height: 30px;
     color: maroon;
     font-size: 18px;
-
+   
 }
