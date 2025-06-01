@@ -3,9 +3,8 @@
 h1 {
     text-align: center;
     color: rgb(35, 122, 243);
-    position: absolute;
-    left: 43%;
-    bottom: 86%;
+    margin: 40px auto;
+ 
 
 
 }
@@ -22,10 +21,6 @@ h1 {
 }
 
 div[id="results"] {
-    position: absolute;
-    bottom: 68%;
-
-
     color: rgba(9, 194, 255, 0.895);
 
 
